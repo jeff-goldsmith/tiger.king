@@ -10,6 +10,5 @@
 #' tiger_king()
 #'
 tiger_king = function() {
-  emo::ji("tiger")
-  emo::ji("king")
+	glue::glue(emo::ji("tiger"), emo::ji("king"))
 }
